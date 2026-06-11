@@ -136,13 +136,13 @@ python manage.py runserver
     "distance_miles": 969.66,
     "duration_seconds": 55702.0,
     "fuel_stops_required": 1,
-    "estimated_fuel_cost": 260.55,
+    "estimated_fuel_cost": 267.24,
     "recommended_fuel_stops": [
         {
-            "name": "7-ELEVEN #218",
-            "city": "Harrold",
+            "name": "One9 #1248",
+            "city": "Wilmer",
             "state": "TX",
-            "price": 2.687
+            "price": 2.756
         }
     ],
   "route_geometry": "..."
