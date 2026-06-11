@@ -58,8 +58,7 @@ class OptimizeRouteAPIView(APIView):
             stations = (
                 optimizer.get_recommended_stations(
                     max(1, fuel_stops_required),
-                    start_location,
-                    destination_location
+                    route["routes"][0]["geometry"]
                 )
             )
 
